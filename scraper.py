@@ -9,9 +9,10 @@ class bColors:
     BLUE = '\033[94m'
 
 
-def banner():
+    def banner():
     print(bColors.GREEN + '<<< IP-TRACKER v2.0>>>')
-     print(bColors.RED + r''' 
+    print(bColors.RED + r'''
+    
      
      _______.  ______ .______          ___      .______   .______    _______ .______      
     /       | /      ||   _  \        /   \     |   _  \  |   _  \  |   ____||   _  \     
@@ -22,7 +23,8 @@ def banner():
 
 
 
-                                                                                          ''' + bColors.ENDC)
+                                                                                          ''' )
+
 
 
 
